@@ -1,0 +1,422 @@
+/* DONE BY ABHISHEK VISHWAGNA */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header
+{
+    height: 90px;
+    width: 100%;
+    background-color: black;
+
+}
+
+.header_container
+{
+    justify-content: space-between;
+
+
+}
+
+.container
+{
+width: 90%;
+height: 90px;
+/* background-color: darkcyan; */
+display: flex ;
+
+}
+
+.logo
+{
+width: 15%;
+height: 90px;
+/* background-color:darkorange; */
+font-size: 25px;
+font-family: Times New Roman;
+line-height: 90px;
+text-align: left;
+justify-content: left;
+color: white;
+}
+
+.nav
+{
+    width: 35%;
+    height: 90px;
+    /* background-color: green; */
+    display: flex;
+}
+
+.nav_item
+{
+width: 20%;
+height: 90px;
+/* background-color: gray; */
+font-family:Times New Roman;
+text-align: center;
+line-height: 90px;
+color: white;
+cursor: pointer;
+}
+
+.nav_item:hover{
+    background-color: white;
+    color: rgba(12, 11, 11, 0.5);
+}
+
+.banner
+{
+    height: 600px;
+    width: 100%;
+    background-color: gray;
+    background-image: url('merc back.jpg');
+
+}
+
+.overlay
+{
+    height: 600px;
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+}
+.banner_text
+{
+    height: 300px;
+    width:50%;
+    background-color: rgba(12, 11, 11, 0.7);
+    font-family: Segoe UI;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.title
+{
+    margin-bottom: 15px;
+    font-size: 50px;
+}
+.padd
+{
+    /* background-color:blue; */
+    padding: 20px;
+}
+
+.bdn
+{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+    font-family: Segoe UI;
+    border: 3px solid white;
+    cursor: pointer;
+}
+
+.banner_disk
+{
+margin-bottom: 20px;
+
+}
+
+.bdn:hover
+{
+background-color: white;
+color: black;
+transition: .5s;
+}
+
+.services
+{
+    padding-bottom: 400px;
+    padding-top: 50px;
+    background-color:black;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Segoe UI;
+    color: white;
+}
+
+.services_cont{
+    margin-top: 50px;
+}
+
+.service{
+
+
+background-color: black;
+display: flex;
+}
+
+.service_img{
+
+    height: 400px;
+    width: 44%;
+   
+    display: flex;
+    }
+
+    .service_details{
+
+        height: 400px;
+        width: 56%;
+        background-color:black;
+        display: flex;
+        align-items: center;
+    
+        }    
+     
+        .service_padd
+{
+padding: 20px;
+}        
+
+        .service_img1{
+
+            height: 400px;
+            width: 20%;
+           
+            display: flex;
+            }
+        
+            .service_details1{
+        
+                height: 400px;
+                width: 30%;
+                background-color:black;
+                display: flex;
+                align-items: center;
+            
+                }  
+        
+                .service_padd1
+                {
+                padding: 30px;
+                } 
+
+
+
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.cars
+{
+    padding-top: 50px;
+    padding-bottom: 500px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 23px;
+    font-family: Segoe UI;
+}
+
+.cars_container
+{
+flex-wrap: wrap;
+margin-top: 30px;
+}
+
+.project
+{
+    width: 33%;
+    height: 250px;
+    background-color: black;
+    display: flex;
+margin: 2px;
+
+}
+
+.proj_1
+{
+background-image: url('New folder/a-class.jpg');
+background-size: cover;
+align-items: flex-end;
+justify-content: center;
+
+}
+
+
+
+.proj_2
+{
+background-image: url('New folder/b-class.jpg');
+background-size: cover;
+align-items: flex-end;
+justify-content: center;
+
+}
+
+
+
+.proj_3
+{
+background-image: url('New folder/c-class.jpg');
+background-size: cover;
+align-items: flex-end;
+justify-content: center;
+
+}
+
+
+.proj_4
+{
+background-image: url('New folder/amg-rod.jpg');
+background-size: cover;
+align-items: flex-end;
+justify-content: center;
+
+}
+
+
+
+.proj_5
+{
+background-image: url('New folder/e-class.jpg');
+background-size: cover;
+align-items: flex-end;
+justify-content: center;
+
+}
+
+
+
+.proj_6
+{
+background-image: url('New folder/s-class1.jpg');
+background-size: cover;
+align-items: flex-end;
+justify-content: center;
+
+}
+
+
+.project_title
+{
+color: white;
+width: 100%;
+background-color:rgba(12, 11, 11, 0.5) ;
+height: 50px;
+text-indent: 30px;
+line-height: 50px;
+align-items: center;
+cursor: pointer;
+}
+
+
+.project_title:hover{
+    height: 250px;
+    transition: .4s;
+}
+
+.footer{
+
+    padding-top: 30px;
+    padding-bottom: 220px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+
+}
+.footer_child{
+
+    height: 300px;
+    width: 59%;
+    color: white;
+    background-color:rgba(12, 11, 11, 0.5) ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.footer_logo{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    text-align: center;
+
+}
+.footer_child_1{
+
+    color: white;
+    font-size: 20px;
+
+}
+.first{
+
+    font-size: 25px;
+
+}
+li{
+
+    list-style-type: none;
+    margin-bottom: 10px;
+    color: white;
+
+}
+ul{
+
+    margin-top: 30px;
+
+}
+.footer_child_4{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.social_icon{
+
+    height: 50px;
+    width: 50px;
+    color: white;
+
+}
+.social_container{
+
+    justify-content: space-between;
+    width: 70%;
+
+}
+.si1{
+
+    background-image: url('New folder/fb.png');
+    background-size: cover;
+
+}
+.si2{
+
+    background-image: url('New folder/google.png');
+    background-size: cover;
+
+}
+.si3{
+
+    background-image: url('New folder/linkedin.png');
+    background-size: cover;
+
+}
+.si4{
+
+    background-image: url('New folder/insta.png');
+    background-size: cover;
+
+}
